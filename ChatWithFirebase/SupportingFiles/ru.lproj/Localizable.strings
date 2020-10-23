@@ -10,4 +10,4 @@ Email = "Емейл";
 Password = "Пароль";
 SignIn = "Войти";
 Name = "Имя";
-Regester = "Регистрация";
+Register = "Регистрация";

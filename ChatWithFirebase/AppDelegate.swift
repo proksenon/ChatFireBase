@@ -18,9 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		window = UIWindow(frame: UIScreen.main.bounds)
 
 		FirestoreService().configure()
-		let viewController = EntryViewController()
-		window?.rootViewController = viewController
-		window?.makeKeyAndVisible()
+//		let viewController = EntryViewController()
+//		window?.rootViewController = viewController
+//		window?.makeKeyAndVisible()
 		return true
 	}
 

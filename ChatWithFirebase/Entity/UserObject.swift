@@ -42,9 +42,6 @@ class UserObject: FireCodable {
 	}
 	public required convenience init (email: String?, password: String?, name: String?) {
 		self.init(email: email, password: password)
-//		self.init()
-//		self.email = email
-//		self.password = password
 		self.name = name
 	}
 }
