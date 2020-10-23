@@ -26,6 +26,7 @@ class ChatsViewController: UIViewController {
 	}
 	@IBAction private func newChatButtonDidTapped() {
 		print("newChatButtonDidTapped")
+		output?.pushNewChatViewController()
 	}
 
 }
@@ -37,13 +38,11 @@ extension ChatsViewController: ChatsViewInput {
 
 	func setupNewChatButton() {
 
-		let newChatButton = UIBarButtonItem(image: UIImage(systemName: "clock"),
+		let newChatButton = UIBarButtonItem(image: UIImage(systemName: "message"),
 										style: .done,
 										target: self,
 										action: #selector(newChatButtonDidTapped))
-//		navigationController?.navigationItem.rightBarButtonItem = newChatButton
 
-//		navigationController!.navigationItem.rightBarButtonItem = newChatButton
 		navigationItem.rightBarButtonItem = newChatButton
 		self.newChatButton = newChatButton
 	}

@@ -27,18 +27,18 @@ final class TabBarConfigurator {
 		let chatsViewController = ChatsViewController()
 		let chatsConfigurator = ChatsConfigurator()
 		chatsConfigurator.configure(with: chatsViewController)
-		chatsViewController.tabBarItem = UITabBarItem(title: "chats", image: nil, selectedImage: nil)
-		
-		tabViewController.viewControllers = [chatsViewController]
-
+		let navigationControllerChats = UINavigationController(rootViewController: chatsViewController)
+		navigationControllerChats.tabBarItem = UITabBarItem(title: "chats", image: nil, selectedImage: nil)
+		tabViewController.viewControllers = [navigationControllerChats]
 	}
 
 	private func configureSettingsController(tabViewController: TabBarViewController, presenter: TabBarPresenter) {
 		let settingsViewController = SettingsViewController()
 		let settingsConfigurator = SettingsConfigurator()
 		settingsConfigurator.configure(with: settingsViewController)
-		settingsViewController.tabBarItem = UITabBarItem(title: "settings", image: nil, selectedImage: nil)
-		tabViewController.viewControllers?.append(settingsViewController)
+		let navigationControllerSettings = UINavigationController(rootViewController: settingsViewController)
+		navigationControllerSettings.tabBarItem = UITabBarItem(title: "settings", image: nil, selectedImage: nil)
+		tabViewController.viewControllers?.append(navigationControllerSettings)
 	}
 
 }

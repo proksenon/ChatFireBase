@@ -9,5 +9,5 @@
 import Foundation
 
 protocol ChatsRouterInput: class {
-
+	func pushNewChat()
 }

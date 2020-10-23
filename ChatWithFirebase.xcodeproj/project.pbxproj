@@ -73,6 +73,26 @@
 		D56516762542FC5400E94259 /* ChatsTableViewDelegateOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56516752542FC5400E94259 /* ChatsTableViewDelegateOutput.swift */; };
 		D56516792542FCBA00E94259 /* ChatsTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56516782542FCBA00E94259 /* ChatsTableViewDataSource.swift */; };
 		D565167C2542FCE600E94259 /* ChatsTableViewDataSourceOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565167B2542FCE600E94259 /* ChatsTableViewDataSourceOutput.swift */; };
+		D56516A42543246900E94259 /* NewChatConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56516972543246900E94259 /* NewChatConfigurator.swift */; };
+		D56516A52543246A00E94259 /* NewChatRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56516982543246900E94259 /* NewChatRouter.swift */; };
+		D56516A62543246A00E94259 /* NewChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56516992543246900E94259 /* NewChatViewController.swift */; };
+		D56516A72543246A00E94259 /* NewChatInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565169A2543246900E94259 /* NewChatInteractorInput.swift */; };
+		D56516A82543246A00E94259 /* NewChatInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565169B2543246900E94259 /* NewChatInteractorOutput.swift */; };
+		D56516A92543246A00E94259 /* NewChatRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565169C2543246900E94259 /* NewChatRouterInput.swift */; };
+		D56516AA2543246A00E94259 /* NewChatViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565169D2543246900E94259 /* NewChatViewOutput.swift */; };
+		D56516AB2543246A00E94259 /* NewChatModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565169E2543246900E94259 /* NewChatModuleOutput.swift */; };
+		D56516AC2543246A00E94259 /* NewChatInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565169F2543246900E94259 /* NewChatInteractor.swift */; };
+		D56516AD2543246A00E94259 /* NewChatModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56516A02543246900E94259 /* NewChatModuleInput.swift */; };
+		D56516AE2543246A00E94259 /* NewChatConfiguratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56516A12543246900E94259 /* NewChatConfiguratorProtocol.swift */; };
+		D56516AF2543246A00E94259 /* NewChatViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56516A22543246900E94259 /* NewChatViewInput.swift */; };
+		D56516B02543246A00E94259 /* NewChatPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56516A32543246900E94259 /* NewChatPresenter.swift */; };
+		D56516D1254328A900E94259 /* NewChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56516D0254328A900E94259 /* NewChatView.swift */; };
+		D56516D62543291100E94259 /* NewChatTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56516D52543291100E94259 /* NewChatTableView.swift */; };
+		D56516D92543294500E94259 /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56516D82543294500E94259 /* Cells.swift */; };
+		D56516DE25432ACB00E94259 /* NewChatTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56516DD25432ACB00E94259 /* NewChatTableViewDataSource.swift */; };
+		D56516E125432B1C00E94259 /* NewChatTableViewDataSourceOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56516E025432B1C00E94259 /* NewChatTableViewDataSourceOutput.swift */; };
+		D56516E425432B4C00E94259 /* NewChatTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56516E325432B4C00E94259 /* NewChatTableViewDelegate.swift */; };
+		D56516E725432B7B00E94259 /* NewChatTableViewDelegateOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56516E625432B7B00E94259 /* NewChatTableViewDelegateOutput.swift */; };
 		D5A70565253DE41D008054D9 /* DecorateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A70564253DE41D008054D9 /* DecorateView.swift */; };
 		D5A7056A253DE46E008054D9 /* ViewDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A70569253DE46E008054D9 /* ViewDecorator.swift */; };
 		D5A7056E253DE4A7008054D9 /* GradientViewDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A7056D253DE4A7008054D9 /* GradientViewDecorator.swift */; };
@@ -193,6 +213,26 @@
 		D56516752542FC5400E94259 /* ChatsTableViewDelegateOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsTableViewDelegateOutput.swift; sourceTree = "<group>"; };
 		D56516782542FCBA00E94259 /* ChatsTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsTableViewDataSource.swift; sourceTree = "<group>"; };
 		D565167B2542FCE600E94259 /* ChatsTableViewDataSourceOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsTableViewDataSourceOutput.swift; sourceTree = "<group>"; };
+		D56516972543246900E94259 /* NewChatConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewChatConfigurator.swift; sourceTree = "<group>"; };
+		D56516982543246900E94259 /* NewChatRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewChatRouter.swift; sourceTree = "<group>"; };
+		D56516992543246900E94259 /* NewChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewChatViewController.swift; sourceTree = "<group>"; };
+		D565169A2543246900E94259 /* NewChatInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewChatInteractorInput.swift; sourceTree = "<group>"; };
+		D565169B2543246900E94259 /* NewChatInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewChatInteractorOutput.swift; sourceTree = "<group>"; };
+		D565169C2543246900E94259 /* NewChatRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewChatRouterInput.swift; sourceTree = "<group>"; };
+		D565169D2543246900E94259 /* NewChatViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewChatViewOutput.swift; sourceTree = "<group>"; };
+		D565169E2543246900E94259 /* NewChatModuleOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewChatModuleOutput.swift; sourceTree = "<group>"; };
+		D565169F2543246900E94259 /* NewChatInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewChatInteractor.swift; sourceTree = "<group>"; };
+		D56516A02543246900E94259 /* NewChatModuleInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewChatModuleInput.swift; sourceTree = "<group>"; };
+		D56516A12543246900E94259 /* NewChatConfiguratorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewChatConfiguratorProtocol.swift; sourceTree = "<group>"; };
+		D56516A22543246900E94259 /* NewChatViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewChatViewInput.swift; sourceTree = "<group>"; };
+		D56516A32543246900E94259 /* NewChatPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewChatPresenter.swift; sourceTree = "<group>"; };
+		D56516D0254328A900E94259 /* NewChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChatView.swift; sourceTree = "<group>"; };
+		D56516D52543291100E94259 /* NewChatTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChatTableView.swift; sourceTree = "<group>"; };
+		D56516D82543294500E94259 /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
+		D56516DD25432ACB00E94259 /* NewChatTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChatTableViewDataSource.swift; sourceTree = "<group>"; };
+		D56516E025432B1C00E94259 /* NewChatTableViewDataSourceOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChatTableViewDataSourceOutput.swift; sourceTree = "<group>"; };
+		D56516E325432B4C00E94259 /* NewChatTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChatTableViewDelegate.swift; sourceTree = "<group>"; };
+		D56516E625432B7B00E94259 /* NewChatTableViewDelegateOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChatTableViewDelegateOutput.swift; sourceTree = "<group>"; };
 		D5A70564253DE41D008054D9 /* DecorateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecorateView.swift; sourceTree = "<group>"; };
 		D5A70569253DE46E008054D9 /* ViewDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDecorator.swift; sourceTree = "<group>"; };
 		D5A7056D253DE4A7008054D9 /* GradientViewDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientViewDecorator.swift; sourceTree = "<group>"; };
@@ -413,6 +453,7 @@
 				D50FCB6A253D80C9009AC291 /* Registration */,
 				D56515DA254189D100E94259 /* TabBarController */,
 				D51AA55B253F2054005B135D /* Chats */,
+				D565169625431EDD00E94259 /* NewChat */,
 				D56515DB25418A1100E94259 /* Settings */,
 			);
 			path = Modules;
@@ -604,6 +645,104 @@
 			path = Delegate;
 			sourceTree = "<group>";
 		};
+		D565169625431EDD00E94259 /* NewChat */ = {
+			isa = PBXGroup;
+			children = (
+				D56516CB2543252100E94259 /* View */,
+				D56516C52543251200E94259 /* Presenter */,
+				D56516C22543250A00E94259 /* Interactor */,
+				D56516C82543251A00E94259 /* Router */,
+				D56516BF2543250100E94259 /* Configurator */,
+			);
+			path = NewChat;
+			sourceTree = "<group>";
+		};
+		D56516BF2543250100E94259 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				D56516972543246900E94259 /* NewChatConfigurator.swift */,
+				D56516A12543246900E94259 /* NewChatConfiguratorProtocol.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		D56516C22543250A00E94259 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D565169F2543246900E94259 /* NewChatInteractor.swift */,
+				D565169A2543246900E94259 /* NewChatInteractorInput.swift */,
+				D565169B2543246900E94259 /* NewChatInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		D56516C52543251200E94259 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D56516A32543246900E94259 /* NewChatPresenter.swift */,
+				D56516A02543246900E94259 /* NewChatModuleInput.swift */,
+				D565169E2543246900E94259 /* NewChatModuleOutput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D56516C82543251A00E94259 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				D56516982543246900E94259 /* NewChatRouter.swift */,
+				D565169C2543246900E94259 /* NewChatRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		D56516CB2543252100E94259 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D56516D4254328ED00E94259 /* Table */,
+				D56516CF2543289700E94259 /* View */,
+				D56516992543246900E94259 /* NewChatViewController.swift */,
+				D56516A22543246900E94259 /* NewChatViewInput.swift */,
+				D565169D2543246900E94259 /* NewChatViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D56516CF2543289700E94259 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D56516D0254328A900E94259 /* NewChatView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D56516D4254328ED00E94259 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				D56516DC25432AAE00E94259 /* DataSource */,
+				D56516DB25432A9800E94259 /* Delegate */,
+				D56516D52543291100E94259 /* NewChatTableView.swift */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		D56516DB25432A9800E94259 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				D56516E325432B4C00E94259 /* NewChatTableViewDelegate.swift */,
+				D56516E625432B7B00E94259 /* NewChatTableViewDelegateOutput.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		D56516DC25432AAE00E94259 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				D56516DD25432ACB00E94259 /* NewChatTableViewDataSource.swift */,
+				D56516E025432B1C00E94259 /* NewChatTableViewDataSourceOutput.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
 		D5A70563253DE307008054D9 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -737,6 +876,7 @@
 				D51AA54D253EEC7C005B135D /* ChildsAtributes.swift */,
 				D51AA550253EF067005B135D /* ViewConstants.swift */,
 				D51AA5E12540765F005B135D /* Duration.swift */,
+				D56516D82543294500E94259 /* Cells.swift */,
 			);
 			path = Constatns;
 			sourceTree = "<group>";
@@ -960,6 +1100,7 @@
 				D56516542541C30300E94259 /* ChatsTableViewCell.swift in Sources */,
 				D565161B25418BED00E94259 /* TabBarViewOutput.swift in Sources */,
 				D5DDC9AA253DC3A5005DF4BA /* AuthRouter.swift in Sources */,
+				D56516A72543246A00E94259 /* NewChatInteractorInput.swift in Sources */,
 				D51AA56D253F2753005B135D /* ChatsViewController.swift in Sources */,
 				D51AA559253F046D005B135D /* RegistrationView.swift in Sources */,
 				D5A7058D253ECA3B008054D9 /* EntryViewController.swift in Sources */,
@@ -968,6 +1109,9 @@
 				D5A7058B253ECA3B008054D9 /* EntryInteractor.swift in Sources */,
 				D5A7056A253DE46E008054D9 /* ViewDecorator.swift in Sources */,
 				D51AA56A253F2753005B135D /* ChatsInteractor.swift in Sources */,
+				D56516AB2543246A00E94259 /* NewChatModuleOutput.swift in Sources */,
+				D56516E125432B1C00E94259 /* NewChatTableViewDataSourceOutput.swift in Sources */,
+				D56516AF2543246A00E94259 /* NewChatViewInput.swift in Sources */,
 				D565162025418BED00E94259 /* TabBarViewInput.swift in Sources */,
 				D5A705E4253ED830008054D9 /* RegistrationInteractorInput.swift in Sources */,
 				D5A705E0253ED830008054D9 /* RegistrationModuleInput.swift in Sources */,
@@ -978,10 +1122,12 @@
 				D56515EC25418AB700E94259 /* SettingsModuleInput.swift in Sources */,
 				D5DDC9A8253DC3A5005DF4BA /* AuthViewOutput.swift in Sources */,
 				D5DDC9A1253DC3A5005DF4BA /* AuthViewController.swift in Sources */,
+				D56516D1254328A900E94259 /* NewChatView.swift in Sources */,
 				D5A705E2253ED830008054D9 /* RegistrationViewController.swift in Sources */,
 				D5A705D9253ED830008054D9 /* RegistrationRouter.swift in Sources */,
 				D565161E25418BED00E94259 /* TabBarInteractorOutput.swift in Sources */,
 				D5DDC9A3253DC3A5005DF4BA /* AuthModuleOutput.swift in Sources */,
+				D56516AC2543246A00E94259 /* NewChatInteractor.swift in Sources */,
 				D5A705C0253ED46B008054D9 /* LocalizedString.swift in Sources */,
 				D50FCB0C2539F3C8009AC291 /* AppDelegate.swift in Sources */,
 				D5DDC9A5253DC3A5005DF4BA /* AuthInteractor.swift in Sources */,
@@ -998,6 +1144,7 @@
 				D5A705DF253ED830008054D9 /* RegistrationInteractorOutput.swift in Sources */,
 				D56516792542FCBA00E94259 /* ChatsTableViewDataSource.swift in Sources */,
 				D56515F125418AB700E94259 /* SettingsInteractorOutput.swift in Sources */,
+				D56516D62543291100E94259 /* NewChatTableView.swift in Sources */,
 				D56515ED25418AB700E94259 /* SettingsInteractorInput.swift in Sources */,
 				D5DDC9A7253DC3A5005DF4BA /* AuthInteractorInput.swift in Sources */,
 				D5A705E3253ED830008054D9 /* RegistrationRouterInput.swift in Sources */,
@@ -1022,23 +1169,32 @@
 				D565164A2541B76200E94259 /* ChatsTableView.swift in Sources */,
 				D51AA554253EF5E7005B135D /* CornerRadiusDecorator.swift in Sources */,
 				D5A7058E253ECA3B008054D9 /* EntryModuleInput.swift in Sources */,
+				D56516AA2543246A00E94259 /* NewChatViewOutput.swift in Sources */,
+				D56516D92543294500E94259 /* Cells.swift in Sources */,
 				D5DDC99E253DC3A5005DF4BA /* AuthViewInput.swift in Sources */,
 				D51AA5C725402847005B135D /* UserWorker.swift in Sources */,
 				D51AA574253F2753005B135D /* ChatsViewInput.swift in Sources */,
 				D51AA56B253F2753005B135D /* ChatsModuleInput.swift in Sources */,
 				D50FCB0E2539F3C8009AC291 /* SceneDelegate.swift in Sources */,
+				D56516A82543246A00E94259 /* NewChatInteractorOutput.swift in Sources */,
 				D56515F025418AB700E94259 /* SettingsRouter.swift in Sources */,
+				D56516E425432B4C00E94259 /* NewChatTableViewDelegate.swift in Sources */,
+				D56516B02543246A00E94259 /* NewChatPresenter.swift in Sources */,
+				D56516A42543246900E94259 /* NewChatConfigurator.swift in Sources */,
 				D565161C25418BED00E94259 /* TabBarModuleOutput.swift in Sources */,
 				D565167C2542FCE600E94259 /* ChatsTableViewDataSourceOutput.swift in Sources */,
 				D5A705E1253ED830008054D9 /* RegistrationConfigurator.swift in Sources */,
+				D56516E725432B7B00E94259 /* NewChatTableViewDelegateOutput.swift in Sources */,
 				D56516582541CA2B00E94259 /* ChatsView.swift in Sources */,
 				D5A70586253ECA3B008054D9 /* EntryModuleOutput.swift in Sources */,
 				D51AA56E253F2753005B135D /* ChatsModuleOutput.swift in Sources */,
 				D5A705DA253ED830008054D9 /* RegistrationInteractor.swift in Sources */,
 				D5DDC9A2253DC3A5005DF4BA /* AuthInteractorOutput.swift in Sources */,
 				D56515EA25418AB700E94259 /* SettingsInteractor.swift in Sources */,
+				D56516A62543246A00E94259 /* NewChatViewController.swift in Sources */,
 				D565166E2542DF1500E94259 /* ChatObject.swift in Sources */,
 				D5A70589253ECA3B008054D9 /* EntryConfiguratorProtocol.swift in Sources */,
+				D56516AE2543246A00E94259 /* NewChatConfiguratorProtocol.swift in Sources */,
 				D51AA569253F2753005B135D /* ChatsViewOutput.swift in Sources */,
 				D565162325418BED00E94259 /* TabBarViewController.swift in Sources */,
 				D5A7058A253ECA3B008054D9 /* EntryConfigurator.swift in Sources */,
@@ -1048,9 +1204,12 @@
 				D5DDC9A9253DC3A5005DF4BA /* AuthConfigurator.swift in Sources */,
 				D51AA571253F2753005B135D /* ChatsConfiguratorProtocol.swift in Sources */,
 				D51AA5D825402B12005B135D /* FirestoreService.swift in Sources */,
+				D56516AD2543246A00E94259 /* NewChatModuleInput.swift in Sources */,
+				D56516A52543246A00E94259 /* NewChatRouter.swift in Sources */,
 				D5A705DB253ED830008054D9 /* RegistrationConfiguratorProtocol.swift in Sources */,
 				D56516762542FC5400E94259 /* ChatsTableViewDelegateOutput.swift in Sources */,
 				D565161D25418BED00E94259 /* TabBarConfiguratorProtocol.swift in Sources */,
+				D56516A92543246A00E94259 /* NewChatRouterInput.swift in Sources */,
 				D5A705BC253ED449008054D9 /* ChildAddRemove.swift in Sources */,
 				D5A70588253ECA3B008054D9 /* EntryRouterInput.swift in Sources */,
 				D51AA551253EF067005B135D /* ViewConstants.swift in Sources */,
@@ -1060,6 +1219,7 @@
 				D565162425418BED00E94259 /* TabBarConfigurator.swift in Sources */,
 				D51AA56F253F2753005B135D /* ChatsInteractorInput.swift in Sources */,
 				D565162225418BED00E94259 /* TabBarRouter.swift in Sources */,
+				D56516DE25432ACB00E94259 /* NewChatTableViewDataSource.swift in Sources */,
 				D5A705DC253ED830008054D9 /* RegistrationModuleOutput.swift in Sources */,
 				D56515EE25418AB700E94259 /* SettingsConfigurator.swift in Sources */,
 				D5A705AC253ECBE9008054D9 /* EntryView.swift in Sources */,

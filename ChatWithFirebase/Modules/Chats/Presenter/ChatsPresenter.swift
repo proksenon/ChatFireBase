@@ -35,6 +35,10 @@ extension ChatsPresenter: ChatsViewOutput {
 		view?.setupNewChatButton()
 	}
 
+	func pushNewChatViewController() {
+		router?.pushNewChat()
+	}
+
 }
 
 extension ChatsPresenter: ChatsInteractorOutput {

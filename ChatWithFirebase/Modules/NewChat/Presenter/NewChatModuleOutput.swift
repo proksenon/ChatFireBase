@@ -1,5 +1,5 @@
 //
-//  NameViewOutput.swift
+//  NameModuleOutput.swift
 //  MoneyTransfer
 //
 //  Created by 18579132 on 10.09.2020.
@@ -8,7 +8,6 @@
 
 import Foundation
 
-protocol ChatsViewOutput: class {
-	func configureView()
-	func pushNewChatViewController()
+protocol NewChatModuleOutput: class {
+
 }

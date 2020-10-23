@@ -16,4 +16,11 @@ class ChatsRouter: ChatsRouterInput {
 		self.viewController = viewController
 	}
 
+	func pushNewChat() {
+		let newChatViewController = NewChatViewController()
+		let newChatConfigurator = NewChatConfigurator()
+		newChatConfigurator.configure(with: newChatViewController)
+		viewController?.navigationController?.pushViewController(newChatViewController, animated: true)
+	}
+
 }

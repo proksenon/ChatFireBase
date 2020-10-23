@@ -31,8 +31,8 @@ class EntryRouter: EntryRouterInput {
 		let tabBarViewController = TabBarViewController()
 		let tabBarConfigurator = TabBarConfigurator()
 		tabBarConfigurator.configure(with: tabBarViewController)
-		let navigationController = UINavigationController(rootViewController: tabBarViewController)
-		navigationController.modalPresentationStyle = .fullScreen
-		viewController?.present(navigationController, animated: true, completion: nil)
+//		let navigationController = UINavigationController(rootViewController: tabBarViewController)
+		tabBarViewController.modalPresentationStyle = .fullScreen
+		viewController?.present(tabBarViewController, animated: true, completion: nil)
 	}
 }

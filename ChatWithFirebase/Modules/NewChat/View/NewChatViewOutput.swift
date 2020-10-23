@@ -8,7 +8,6 @@
 
 import Foundation
 
-protocol ChatsViewOutput: class {
-	func configureView()
-	func pushNewChatViewController()
+protocol NewChatViewOutput: class {
+
 }
