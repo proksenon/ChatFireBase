@@ -8,4 +8,5 @@
 import Foundation
 
 protocol NewChatTableViewDelegateOutput: AnyObject {
+	func didSelect(indexPath: IndexPath)
 }

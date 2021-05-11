@@ -19,7 +19,6 @@ final class AuthViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 		output?.configureView()
-
         // Do any additional setup after loading the view.
     }
 	override func loadView() {

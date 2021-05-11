@@ -11,11 +11,22 @@ import Foundation
 final class NewChatInteractor {
 
 	weak var output: NewChatInteractorOutput?
+	var userWorker: UserWorker
 
-	init(presenter: NewChatInteractorOutput) {
+	init(presenter: NewChatInteractorOutput, userWorker: UserWorker = UserWorker()) {
 		self.output = presenter
+		self.userWorker = userWorker
 	}
 }
+
 extension NewChatInteractor: NewChatInteractorInput {
-	
+	func fetchUsers(completion: @escaping CompletionObject<[UserObject]>) {
+		guard let id = userWorker.currentUserID() else { return }
+		userWorker.contacts { (results) in
+			let users = results.filter { (user) -> Bool in
+				user.id != id
+			}
+			completion(users)
+		}
+	}
 }

@@ -1,5 +1,5 @@
 //
-//  NameViewOutput.swift
+//  NameRouterInput.swift
 //  MoneyTransfer
 //
 //  Created by 18579132 on 10.09.2020.
@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol NewChatViewOutput: class {
-	func configureView()
+protocol MessagesRouterInput: class {
+
 }

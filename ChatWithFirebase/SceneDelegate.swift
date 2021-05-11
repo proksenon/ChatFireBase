@@ -17,6 +17,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 //		let navigationController = UINavigationController(
 //			rootViewController: EntryViewController()
 //		)
+
+//		let configurator = MessagesConfigurator()
+//		let vc = MessagesViewController()
+//		configurator.configure(with: vc)
+
 		window = UIWindow()
 		window?.windowScene = windowScene
 		window?.rootViewController = EntryViewController()

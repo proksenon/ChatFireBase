@@ -9,5 +9,5 @@
 import Foundation
 
 protocol NewChatViewInput: class {
-	
+	func reoladTable()
 }

@@ -40,6 +40,8 @@ final class AuthView: UIView {
 
 		emailTextField.placeholder = Labels.email
 		emailTextField.layer.borderWidth = 1
+
+		emailTextField.text = "1@ya.ru"
 	}
 
 	private func setupPasswordTextField() {
@@ -52,6 +54,8 @@ final class AuthView: UIView {
 									 passwordTextField.heightAnchor.constraint(equalToConstant: 40)])
 		passwordTextField.placeholder = Labels.password
 		passwordTextField.layer.borderWidth = 1
+
+		passwordTextField.text = "Test123"
 	}
 
 	private func setupSignInButton() {

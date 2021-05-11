@@ -8,28 +8,24 @@
 
 import UIKit
 
-final class NewChatViewController: UIViewController {
+final class MessagesViewController: UIViewController {
 
-	var output: NewChatViewOutput?
-	let newChatView = NewChatView()
+	var output: MessagesViewOutput?
+	let messagesView = MessagesView()
 	
 
     override func viewDidLoad() {
         super.viewDidLoad()
-		output?.configureView()
-
         // Do any additional setup after loading the view.
     }
 
 	override func loadView() {
-		view = newChatView
+		view = messagesView
 	}
 
 
 }
 
-extension NewChatViewController: NewChatViewInput {
-	func reoladTable() {
-		newChatView.tableView.reloadData()
-	}
+extension MessagesViewController: MessagesViewInput {
+	
 }

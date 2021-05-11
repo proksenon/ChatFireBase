@@ -93,6 +93,31 @@
 		D56516E125432B1C00E94259 /* NewChatTableViewDataSourceOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56516E025432B1C00E94259 /* NewChatTableViewDataSourceOutput.swift */; };
 		D56516E425432B4C00E94259 /* NewChatTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56516E325432B4C00E94259 /* NewChatTableViewDelegate.swift */; };
 		D56516E725432B7B00E94259 /* NewChatTableViewDelegateOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56516E625432B7B00E94259 /* NewChatTableViewDelegateOutput.swift */; };
+		D56516EB2544387700E94259 /* MessagesWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56516EA2544387700E94259 /* MessagesWorker.swift */; };
+		D56516EE2544390900E94259 /* MessageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56516ED2544390900E94259 /* MessageObject.swift */; };
+		D56516F22544456A00E94259 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56516F12544456A00E94259 /* UserTableViewCell.swift */; };
+		D56517192544C41200E94259 /* MessagesViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565170C2544C41200E94259 /* MessagesViewOutput.swift */; };
+		D565171A2544C41200E94259 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565170D2544C41200E94259 /* MessagesViewController.swift */; };
+		D565171B2544C41200E94259 /* MessagesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565170E2544C41200E94259 /* MessagesInteractor.swift */; };
+		D565171C2544C41200E94259 /* MessagesInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565170F2544C41200E94259 /* MessagesInteractorInput.swift */; };
+		D565171D2544C41200E94259 /* MessagesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56517102544C41200E94259 /* MessagesRouter.swift */; };
+		D565171E2544C41200E94259 /* MessagesConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56517112544C41200E94259 /* MessagesConfigurator.swift */; };
+		D565171F2544C41200E94259 /* MessagesInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56517122544C41200E94259 /* MessagesInteractorOutput.swift */; };
+		D56517202544C41200E94259 /* MessagesViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56517132544C41200E94259 /* MessagesViewInput.swift */; };
+		D56517212544C41200E94259 /* MessagesConfiguratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56517142544C41200E94259 /* MessagesConfiguratorProtocol.swift */; };
+		D56517222544C41200E94259 /* MessagesModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56517152544C41200E94259 /* MessagesModuleOutput.swift */; };
+		D56517232544C41200E94259 /* MessagesRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56517162544C41200E94259 /* MessagesRouterInput.swift */; };
+		D56517242544C41200E94259 /* MessagesModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56517172544C41200E94259 /* MessagesModuleInput.swift */; };
+		D56517252544C41200E94259 /* MessagesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56517182544C41200E94259 /* MessagesPresenter.swift */; };
+		D56517892546B8C900E94259 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56517882546B8C900E94259 /* MessagesView.swift */; };
+		D565178D2546B98200E94259 /* MessagesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565178C2546B98200E94259 /* MessagesTableView.swift */; };
+		D56517922546B9E300E94259 /* IncomeMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56517912546B9E300E94259 /* IncomeMessageTableViewCell.swift */; };
+		D56517952546BA6500E94259 /* OutcomeMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56517942546BA6400E94259 /* OutcomeMessageTableViewCell.swift */; };
+		D56517982546BE5A00E94259 /* SendMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56517972546BE5A00E94259 /* SendMessageView.swift */; };
+		D565179D2546C35E00E94259 /* MessagesTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565179C2546C35E00E94259 /* MessagesTableViewDataSource.swift */; };
+		D56517A02546C3A500E94259 /* MessagesTableViewDataSourceOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565179F2546C3A500E94259 /* MessagesTableViewDataSourceOutput.swift */; };
+		D56517A32546C3C500E94259 /* MessagesTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56517A22546C3C500E94259 /* MessagesTableViewDelegate.swift */; };
+		D56517A62546C3DC00E94259 /* MessagesTableViewDelegateOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56517A52546C3DC00E94259 /* MessagesTableViewDelegateOutput.swift */; };
 		D5A70565253DE41D008054D9 /* DecorateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A70564253DE41D008054D9 /* DecorateView.swift */; };
 		D5A7056A253DE46E008054D9 /* ViewDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A70569253DE46E008054D9 /* ViewDecorator.swift */; };
 		D5A7056E253DE4A7008054D9 /* GradientViewDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A7056D253DE4A7008054D9 /* GradientViewDecorator.swift */; };
@@ -233,6 +258,31 @@
 		D56516E025432B1C00E94259 /* NewChatTableViewDataSourceOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChatTableViewDataSourceOutput.swift; sourceTree = "<group>"; };
 		D56516E325432B4C00E94259 /* NewChatTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChatTableViewDelegate.swift; sourceTree = "<group>"; };
 		D56516E625432B7B00E94259 /* NewChatTableViewDelegateOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChatTableViewDelegateOutput.swift; sourceTree = "<group>"; };
+		D56516EA2544387700E94259 /* MessagesWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesWorker.swift; sourceTree = "<group>"; };
+		D56516ED2544390900E94259 /* MessageObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageObject.swift; sourceTree = "<group>"; };
+		D56516F12544456A00E94259 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		D565170C2544C41200E94259 /* MessagesViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewOutput.swift; sourceTree = "<group>"; };
+		D565170D2544C41200E94259 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		D565170E2544C41200E94259 /* MessagesInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesInteractor.swift; sourceTree = "<group>"; };
+		D565170F2544C41200E94259 /* MessagesInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesInteractorInput.swift; sourceTree = "<group>"; };
+		D56517102544C41200E94259 /* MessagesRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesRouter.swift; sourceTree = "<group>"; };
+		D56517112544C41200E94259 /* MessagesConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesConfigurator.swift; sourceTree = "<group>"; };
+		D56517122544C41200E94259 /* MessagesInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesInteractorOutput.swift; sourceTree = "<group>"; };
+		D56517132544C41200E94259 /* MessagesViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewInput.swift; sourceTree = "<group>"; };
+		D56517142544C41200E94259 /* MessagesConfiguratorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesConfiguratorProtocol.swift; sourceTree = "<group>"; };
+		D56517152544C41200E94259 /* MessagesModuleOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesModuleOutput.swift; sourceTree = "<group>"; };
+		D56517162544C41200E94259 /* MessagesRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesRouterInput.swift; sourceTree = "<group>"; };
+		D56517172544C41200E94259 /* MessagesModuleInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesModuleInput.swift; sourceTree = "<group>"; };
+		D56517182544C41200E94259 /* MessagesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesPresenter.swift; sourceTree = "<group>"; };
+		D56517882546B8C900E94259 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		D565178C2546B98200E94259 /* MessagesTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesTableView.swift; sourceTree = "<group>"; };
+		D56517912546B9E300E94259 /* IncomeMessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeMessageTableViewCell.swift; sourceTree = "<group>"; };
+		D56517942546BA6400E94259 /* OutcomeMessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutcomeMessageTableViewCell.swift; sourceTree = "<group>"; };
+		D56517972546BE5A00E94259 /* SendMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageView.swift; sourceTree = "<group>"; };
+		D565179C2546C35E00E94259 /* MessagesTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesTableViewDataSource.swift; sourceTree = "<group>"; };
+		D565179F2546C3A500E94259 /* MessagesTableViewDataSourceOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesTableViewDataSourceOutput.swift; sourceTree = "<group>"; };
+		D56517A22546C3C500E94259 /* MessagesTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesTableViewDelegate.swift; sourceTree = "<group>"; };
+		D56517A52546C3DC00E94259 /* MessagesTableViewDelegateOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesTableViewDelegateOutput.swift; sourceTree = "<group>"; };
 		D5A70564253DE41D008054D9 /* DecorateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecorateView.swift; sourceTree = "<group>"; };
 		D5A70569253DE46E008054D9 /* ViewDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDecorator.swift; sourceTree = "<group>"; };
 		D5A7056D253DE4A7008054D9 /* GradientViewDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientViewDecorator.swift; sourceTree = "<group>"; };
@@ -454,6 +504,7 @@
 				D56515DA254189D100E94259 /* TabBarController */,
 				D51AA55B253F2054005B135D /* Chats */,
 				D565169625431EDD00E94259 /* NewChat */,
+				D565170B2544C35600E94259 /* Messages */,
 				D56515DB25418A1100E94259 /* Settings */,
 			);
 			path = Modules;
@@ -465,6 +516,7 @@
 				D51AA5C625402847005B135D /* UserWorker.swift */,
 				D51AA5D725402B12005B135D /* FirestoreService.swift */,
 				D565166A2542DEBD00E94259 /* ChatsWorker.swift */,
+				D56516EA2544387700E94259 /* MessagesWorker.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -476,6 +528,7 @@
 				D51AA5CE254028F8005B135D /* FireStoreCollectionReference.swift */,
 				D51AA5D425402A51005B135D /* UserObject.swift */,
 				D565166D2542DF1500E94259 /* ChatObject.swift */,
+				D56516ED2544390900E94259 /* MessageObject.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -718,9 +771,10 @@
 		D56516D4254328ED00E94259 /* Table */ = {
 			isa = PBXGroup;
 			children = (
+				D56516D52543291100E94259 /* NewChatTableView.swift */,
 				D56516DC25432AAE00E94259 /* DataSource */,
 				D56516DB25432A9800E94259 /* Delegate */,
-				D56516D52543291100E94259 /* NewChatTableView.swift */,
+				D56516F02544451D00E94259 /* Cell */,
 			);
 			path = Table;
 			sourceTree = "<group>";
@@ -741,6 +795,123 @@
 				D56516E025432B1C00E94259 /* NewChatTableViewDataSourceOutput.swift */,
 			);
 			path = DataSource;
+			sourceTree = "<group>";
+		};
+		D56516F02544451D00E94259 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D56516F12544456A00E94259 /* UserTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D565170B2544C35600E94259 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				D56517342544C47000E94259 /* View */,
+				D565173C2544C48200E94259 /* Presenter */,
+				D56517402544C48D00E94259 /* Interactor */,
+				D56517362544C47500E94259 /* Router */,
+				D56517422544C49500E94259 /* Configurator */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		D56517342544C47000E94259 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D565178B2546B92C00E94259 /* Table */,
+				D56517452544C4B000E94259 /* View */,
+				D565170D2544C41200E94259 /* MessagesViewController.swift */,
+				D56517132544C41200E94259 /* MessagesViewInput.swift */,
+				D565170C2544C41200E94259 /* MessagesViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D56517362544C47500E94259 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				D56517102544C41200E94259 /* MessagesRouter.swift */,
+				D56517162544C41200E94259 /* MessagesRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		D565173C2544C48200E94259 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D56517182544C41200E94259 /* MessagesPresenter.swift */,
+				D56517172544C41200E94259 /* MessagesModuleInput.swift */,
+				D56517152544C41200E94259 /* MessagesModuleOutput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D56517402544C48D00E94259 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D565170E2544C41200E94259 /* MessagesInteractor.swift */,
+				D565170F2544C41200E94259 /* MessagesInteractorInput.swift */,
+				D56517122544C41200E94259 /* MessagesInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		D56517422544C49500E94259 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				D56517112544C41200E94259 /* MessagesConfigurator.swift */,
+				D56517142544C41200E94259 /* MessagesConfiguratorProtocol.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		D56517452544C4B000E94259 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D56517882546B8C900E94259 /* MessagesView.swift */,
+				D56517972546BE5A00E94259 /* SendMessageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D565178B2546B92C00E94259 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				D565178C2546B98200E94259 /* MessagesTableView.swift */,
+				D565179A2546C2FF00E94259 /* MessagesTableViewDelegate */,
+				D565179B2546C33300E94259 /* MessagesTableViewDataSource */,
+				D56517902546B99800E94259 /* Cells */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		D56517902546B99800E94259 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D56517912546B9E300E94259 /* IncomeMessageTableViewCell.swift */,
+				D56517942546BA6400E94259 /* OutcomeMessageTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D565179A2546C2FF00E94259 /* MessagesTableViewDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D56517A22546C3C500E94259 /* MessagesTableViewDelegate.swift */,
+				D56517A52546C3DC00E94259 /* MessagesTableViewDelegateOutput.swift */,
+			);
+			path = MessagesTableViewDelegate;
+			sourceTree = "<group>";
+		};
+		D565179B2546C33300E94259 /* MessagesTableViewDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				D565179C2546C35E00E94259 /* MessagesTableViewDataSource.swift */,
+				D565179F2546C3A500E94259 /* MessagesTableViewDataSourceOutput.swift */,
+			);
+			path = MessagesTableViewDataSource;
 			sourceTree = "<group>";
 		};
 		D5A70563253DE307008054D9 /* Extension */ = {
@@ -1104,6 +1275,7 @@
 				D51AA56D253F2753005B135D /* ChatsViewController.swift in Sources */,
 				D51AA559253F046D005B135D /* RegistrationView.swift in Sources */,
 				D5A7058D253ECA3B008054D9 /* EntryViewController.swift in Sources */,
+				D56517232544C41200E94259 /* MessagesRouterInput.swift in Sources */,
 				D565161F25418BED00E94259 /* TabBarPresenter.swift in Sources */,
 				D565162125418BED00E94259 /* TabBarModuleInput.swift in Sources */,
 				D5A7058B253ECA3B008054D9 /* EntryInteractor.swift in Sources */,
@@ -1122,13 +1294,16 @@
 				D56515EC25418AB700E94259 /* SettingsModuleInput.swift in Sources */,
 				D5DDC9A8253DC3A5005DF4BA /* AuthViewOutput.swift in Sources */,
 				D5DDC9A1253DC3A5005DF4BA /* AuthViewController.swift in Sources */,
+				D565171C2544C41200E94259 /* MessagesInteractorInput.swift in Sources */,
 				D56516D1254328A900E94259 /* NewChatView.swift in Sources */,
 				D5A705E2253ED830008054D9 /* RegistrationViewController.swift in Sources */,
 				D5A705D9253ED830008054D9 /* RegistrationRouter.swift in Sources */,
 				D565161E25418BED00E94259 /* TabBarInteractorOutput.swift in Sources */,
+				D56517A32546C3C500E94259 /* MessagesTableViewDelegate.swift in Sources */,
 				D5DDC9A3253DC3A5005DF4BA /* AuthModuleOutput.swift in Sources */,
 				D56516AC2543246A00E94259 /* NewChatInteractor.swift in Sources */,
 				D5A705C0253ED46B008054D9 /* LocalizedString.swift in Sources */,
+				D565171B2544C41200E94259 /* MessagesInteractor.swift in Sources */,
 				D50FCB0C2539F3C8009AC291 /* AppDelegate.swift in Sources */,
 				D5DDC9A5253DC3A5005DF4BA /* AuthInteractor.swift in Sources */,
 				D51AA572253F2753005B135D /* ChatsInteractorOutput.swift in Sources */,
@@ -1136,7 +1311,9 @@
 				D5A705C7253ED673008054D9 /* Labels.swift in Sources */,
 				D56515EB25418AB700E94259 /* SettingsModuleOutput.swift in Sources */,
 				D51AA575253F2753005B135D /* ChatsConfigurator.swift in Sources */,
+				D565171E2544C41200E94259 /* MessagesConfigurator.swift in Sources */,
 				D51AA5E22540765F005B135D /* Duration.swift in Sources */,
+				D56516EB2544387700E94259 /* MessagesWorker.swift in Sources */,
 				D56515F425418AB700E94259 /* SettingsRouterInput.swift in Sources */,
 				D56515F225418AB700E94259 /* SettingsPresenter.swift in Sources */,
 				D5A70587253ECA3B008054D9 /* EntryPresenter.swift in Sources */,
@@ -1147,13 +1324,19 @@
 				D56516D62543291100E94259 /* NewChatTableView.swift in Sources */,
 				D56515ED25418AB700E94259 /* SettingsInteractorInput.swift in Sources */,
 				D5DDC9A7253DC3A5005DF4BA /* AuthInteractorInput.swift in Sources */,
+				D56517212544C41200E94259 /* MessagesConfiguratorProtocol.swift in Sources */,
 				D5A705E3253ED830008054D9 /* RegistrationRouterInput.swift in Sources */,
 				D51AA5CF254028F8005B135D /* FireStoreCollectionReference.swift in Sources */,
+				D56517A62546C3DC00E94259 /* MessagesTableViewDelegateOutput.swift in Sources */,
+				D565178D2546B98200E94259 /* MessagesTableView.swift in Sources */,
 				D565162725418BED00E94259 /* TabBarInteractorInput.swift in Sources */,
 				D56515F325418AB700E94259 /* SettingsViewInput.swift in Sources */,
+				D56517202544C41200E94259 /* MessagesViewInput.swift in Sources */,
 				D51AA54E253EEC7C005B135D /* ChildsAtributes.swift in Sources */,
+				D56517952546BA6500E94259 /* OutcomeMessageTableViewCell.swift in Sources */,
 				D565162525418BED00E94259 /* TabBarRouterInput.swift in Sources */,
 				D51AA5CC254028D0005B135D /* ResponseStatus.swift in Sources */,
+				D565171F2544C41200E94259 /* MessagesInteractorOutput.swift in Sources */,
 				D5A70590253ECA3B008054D9 /* EntryViewOutput.swift in Sources */,
 				D56516732542FC0500E94259 /* ChatsTableViewDelegate.swift in Sources */,
 				D56515EF25418AB700E94259 /* SettingsViewController.swift in Sources */,
@@ -1166,6 +1349,8 @@
 				D5A7056E253DE4A7008054D9 /* GradientViewDecorator.swift in Sources */,
 				D565162625418BED00E94259 /* TabBarInteractor.swift in Sources */,
 				D5DDC9A6253DC3A5005DF4BA /* AuthModuleInput.swift in Sources */,
+				D565179D2546C35E00E94259 /* MessagesTableViewDataSource.swift in Sources */,
+				D56517A02546C3A500E94259 /* MessagesTableViewDataSourceOutput.swift in Sources */,
 				D565164A2541B76200E94259 /* ChatsTableView.swift in Sources */,
 				D51AA554253EF5E7005B135D /* CornerRadiusDecorator.swift in Sources */,
 				D5A7058E253ECA3B008054D9 /* EntryModuleInput.swift in Sources */,
@@ -1173,6 +1358,7 @@
 				D56516D92543294500E94259 /* Cells.swift in Sources */,
 				D5DDC99E253DC3A5005DF4BA /* AuthViewInput.swift in Sources */,
 				D51AA5C725402847005B135D /* UserWorker.swift in Sources */,
+				D56516F22544456A00E94259 /* UserTableViewCell.swift in Sources */,
 				D51AA574253F2753005B135D /* ChatsViewInput.swift in Sources */,
 				D51AA56B253F2753005B135D /* ChatsModuleInput.swift in Sources */,
 				D50FCB0E2539F3C8009AC291 /* SceneDelegate.swift in Sources */,
@@ -1187,6 +1373,7 @@
 				D56516E725432B7B00E94259 /* NewChatTableViewDelegateOutput.swift in Sources */,
 				D56516582541CA2B00E94259 /* ChatsView.swift in Sources */,
 				D5A70586253ECA3B008054D9 /* EntryModuleOutput.swift in Sources */,
+				D565171A2544C41200E94259 /* MessagesViewController.swift in Sources */,
 				D51AA56E253F2753005B135D /* ChatsModuleOutput.swift in Sources */,
 				D5A705DA253ED830008054D9 /* RegistrationInteractor.swift in Sources */,
 				D5DDC9A2253DC3A5005DF4BA /* AuthInteractorOutput.swift in Sources */,
@@ -1197,6 +1384,7 @@
 				D56516AE2543246A00E94259 /* NewChatConfiguratorProtocol.swift in Sources */,
 				D51AA569253F2753005B135D /* ChatsViewOutput.swift in Sources */,
 				D565162325418BED00E94259 /* TabBarViewController.swift in Sources */,
+				D56516EE2544390900E94259 /* MessageObject.swift in Sources */,
 				D5A7058A253ECA3B008054D9 /* EntryConfigurator.swift in Sources */,
 				D51AA570253F2753005B135D /* ChatsRouterInput.swift in Sources */,
 				D5DDC99F253DC3A5005DF4BA /* AuthRouterInput.swift in Sources */,
@@ -1205,14 +1393,21 @@
 				D51AA571253F2753005B135D /* ChatsConfiguratorProtocol.swift in Sources */,
 				D51AA5D825402B12005B135D /* FirestoreService.swift in Sources */,
 				D56516AD2543246A00E94259 /* NewChatModuleInput.swift in Sources */,
+				D56517192544C41200E94259 /* MessagesViewOutput.swift in Sources */,
 				D56516A52543246A00E94259 /* NewChatRouter.swift in Sources */,
 				D5A705DB253ED830008054D9 /* RegistrationConfiguratorProtocol.swift in Sources */,
 				D56516762542FC5400E94259 /* ChatsTableViewDelegateOutput.swift in Sources */,
+				D56517242544C41200E94259 /* MessagesModuleInput.swift in Sources */,
+				D56517892546B8C900E94259 /* MessagesView.swift in Sources */,
+				D56517922546B9E300E94259 /* IncomeMessageTableViewCell.swift in Sources */,
 				D565161D25418BED00E94259 /* TabBarConfiguratorProtocol.swift in Sources */,
 				D56516A92543246A00E94259 /* NewChatRouterInput.swift in Sources */,
+				D565171D2544C41200E94259 /* MessagesRouter.swift in Sources */,
 				D5A705BC253ED449008054D9 /* ChildAddRemove.swift in Sources */,
 				D5A70588253ECA3B008054D9 /* EntryRouterInput.swift in Sources */,
 				D51AA551253EF067005B135D /* ViewConstants.swift in Sources */,
+				D56517222544C41200E94259 /* MessagesModuleOutput.swift in Sources */,
+				D56517982546BE5A00E94259 /* SendMessageView.swift in Sources */,
 				D565166B2542DEBD00E94259 /* ChatsWorker.swift in Sources */,
 				D5A705DD253ED830008054D9 /* RegistrationViewInput.swift in Sources */,
 				D5A70565253DE41D008054D9 /* DecorateView.swift in Sources */,
@@ -1220,6 +1415,7 @@
 				D51AA56F253F2753005B135D /* ChatsInteractorInput.swift in Sources */,
 				D565162225418BED00E94259 /* TabBarRouter.swift in Sources */,
 				D56516DE25432ACB00E94259 /* NewChatTableViewDataSource.swift in Sources */,
+				D56517252544C41200E94259 /* MessagesPresenter.swift in Sources */,
 				D5A705DC253ED830008054D9 /* RegistrationModuleOutput.swift in Sources */,
 				D56515EE25418AB700E94259 /* SettingsConfigurator.swift in Sources */,
 				D5A705AC253ECBE9008054D9 /* EntryView.swift in Sources */,

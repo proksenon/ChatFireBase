@@ -9,5 +9,5 @@
 import Foundation
 
 protocol NewChatInteractorInput: class {
-
+	func fetchUsers(completion: @escaping CompletionObject<[UserObject]>)
 }

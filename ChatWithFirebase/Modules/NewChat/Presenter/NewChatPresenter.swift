@@ -14,6 +14,7 @@ final class NewChatPresenter {
 	var router: NewChatRouterInput?
 	var newChatTableViewDataSource: NewChatTableViewDataSource?
 	var newChatTableViewDelegate: NewChatTableViewDelegate?
+	var users: [UserObject]?
 
 	init(view: NewChatViewInput) {
 		self.view = view
@@ -22,6 +23,12 @@ final class NewChatPresenter {
 }
 
 extension NewChatPresenter: NewChatViewOutput {
+	func configureView() {
+		interactor?.fetchUsers(completion: { [weak self] (users) in
+			self?.users = users
+			self?.view?.reoladTable()
+		})
+	}
 
 }
 
@@ -38,5 +45,11 @@ extension NewChatPresenter: NewChatTableViewDelegateOutput {
 }
 
 extension NewChatPresenter: NewChatTableViewDataSourceOutput {
+	func numberOfRows() -> Int {
+		users?.count ?? 0
+	}
 
+	func user(with indexPath: IndexPath)-> UserObject {
+		users?[indexPath.row] ?? UserObject()
+	}
 }

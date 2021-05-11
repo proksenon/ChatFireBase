@@ -35,6 +35,9 @@ final class EntryViewController: UIViewController {
 	override func loadView() {
 		view = entryView
 	}
+	override func viewDidLayoutSubviews() {
+		super.viewDidLayoutSubviews()
+	}
 	@IBAction private func changeOperationDidTapped() {
 		output?.changeOperation()
 	}

@@ -12,7 +12,7 @@ class NewChatTableView: UITableView {
 
 	init() {
 		super.init(frame: .zero, style: .grouped)
-		register(ChatsTableViewCell.self, forCellReuseIdentifier: Cells.newContact)
+		register(UserTableViewCell.self, forCellReuseIdentifier: Cells.user)
 //		tableFooterView = UIView()
 		setupSearchBar()
 	}

@@ -9,7 +9,7 @@ import UIKit
 
 class NewChatView: UIView {
 
-	let tableView: UITableView = ChatsTableView()
+	let tableView: UITableView = NewChatTableView()
 
 	override init(frame: CGRect) {
 		super.init(frame: frame)

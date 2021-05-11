@@ -17,14 +17,15 @@ final class NewChatTableViewDataSource: NSObject, UITableViewDataSource {
 	}
 	/// Количество ячеек
 	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-		return 0
+		return output?.numberOfRows() ?? 0
 	}
 	/// Работа с ячейкой
 	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-		guard let cell = tableView.dequeueReusableCell(withIdentifier: Cells.chat) as? ChatsTableViewCell else { return UITableViewCell()}
-//		if let chatObject = output?.chat(with: indexPath) {
-//			cell.configureCell(with: chatObject)
-//		}
+		guard let cell = tableView.dequeueReusableCell(withIdentifier: Cells.user) as? UserTableViewCell else { return UITableViewCell()}
+		if let userObject = output?.user(with: indexPath) {
+			print(userObject)
+			cell.configureCell(with: userObject)
+		}
 		return cell
 	}
 

@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol NewChatViewOutput: class {
-	func configureView()
+protocol MessagesViewOutput: class {
+
 }

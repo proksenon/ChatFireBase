@@ -43,12 +43,6 @@ extension EntryPresenter: EntryViewOutput {
 	}
 
 	func changeOperation() {
-//		if isSignIn {
-//			//show reg
-//		} else {
-//			//show auth
-//		}
-//		isSignIn = !isSignIn
 		guard let authView = authViewController?.view, let registView = registrationViewController?.view else {return}
 		view?.changeTitleOperationButton()
 		view?.changeViewOperation(view: authView)

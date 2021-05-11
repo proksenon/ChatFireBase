@@ -13,6 +13,7 @@ protocol UserWorkerProtocol {
 	func update(user: UserObject, completion: @escaping CompletionObject<ResponseStatus>)
 	func signOut() -> Bool
 	func currentUserID() -> String?
+	func contacts(_ completion: @escaping CompletionObject<[UserObject]>)
 }
 
 class UserWorker: UserWorkerProtocol {
@@ -35,7 +36,6 @@ class UserWorker: UserWorkerProtocol {
 	func register(user: UserObject, completion: @escaping CompletionObject<ResponseStatus>) {
 	  guard let email = user.email, let password = user.password else { completion(.failure); return }
 	  Auth.auth().createUser(withEmail: email, password: password) {[weak self] (response, error) in
-		print(error)
 		guard error == nil else { completion(.failure); return }
 		user.id = response?.user.uid ?? UUID().uuidString
 		self?.update(user: user, completion: { result in
@@ -49,6 +49,12 @@ class UserWorker: UserWorkerProtocol {
 			print(result)
 		  completion(result)
 		})
+	}
+
+	func contacts(_ completion: @escaping CompletionObject<[UserObject]>) {
+	  FirestoreService().objects(UserObject.self, reference: .init(location: .users)) { results in
+		completion(results)
+	  }
 	}
 
 	func signOut() -> Bool {

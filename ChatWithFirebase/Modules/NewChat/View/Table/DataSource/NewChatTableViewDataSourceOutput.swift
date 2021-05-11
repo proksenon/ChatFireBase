@@ -8,5 +8,6 @@
 import Foundation
 
 protocol NewChatTableViewDataSourceOutput: AnyObject {
-
+	func numberOfRows() -> Int
+	func user(with indexPath: IndexPath)-> UserObject
 }
